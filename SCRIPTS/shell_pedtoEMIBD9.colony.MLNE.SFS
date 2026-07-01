@@ -1,0 +1,23 @@
+
+mkdir Mytilus
+
+cp Mytilus.map data.map
+cp Mytilus.ped data.ped
+
+./PEDMAP_TO_EMIBD9_COLONY_MLNE_SFS<<@
+26	IND
+5870 	SNPs
+0.0	MAF
+0	0(alleles ATCG0), 1(alleles 1 and 2)
+@
+
+mv COLONY_data.txt Mytilus/COLONY_Mytilus.dat
+mv MLNE_data.txt Mytilus/MLNE_Mytilus.dat
+mv COLONY_markers.txt Mytilus/COLONY_Mytilus.markers.txt
+mv EMIBD9_file Mytilus/EMIBD9_Mytilus.dat
+mv outfileF Mytilus/outfileF_Mytilus
+mv inbreeding_file Mytilus/inbreeding_file_Mytilus
+mv genotype_file Mytilus/genotype_file_Mytilus
+mv SFS_file Mytilus/SFS_file_Mytilus
+rm data.*
+

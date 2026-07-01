@@ -1,0 +1,2 @@
+time gcc -o PEDMAP_TO_EMIBD9_COLONY_MLNE_SFS -w -O PEDMAP_TO_EMIBD9_COLONY_MLNE_SFS.c genlib.c -lm
+
