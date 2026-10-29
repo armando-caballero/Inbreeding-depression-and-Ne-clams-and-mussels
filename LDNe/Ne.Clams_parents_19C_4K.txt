@@ -1,0 +1,35 @@
+Output from NeEstimator v2.1
+Starting time: Thu Oct  8 19:11:26 2026
+Input File: "input.Clams_parents_19C_4K.txt"
+
+Only run for Population 1
+Number of Loci = 3886
+
+LD mating model: Random
+
+Population     1 [1]  (Number of Individuals = 86)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       71.3        71.2        71.3        71.3
+Independent Comparisons =    6862901     7306364     7472452     7541946
+OverAll r^2 =                 0.014343    0.014349    0.014334    0.014328
+Expected r^2 Sample =         0.014086    0.014099    0.014092    0.014089
+Estimated Ne^ =                 1293.1      1336.3      1378.5      1392.4
+
+95% CIs for Ne^
+* Parametric                    1220.9      1261.6      1300.0      1312.8
+                                1374.1      1420.3      1466.8      1482.1
+
+* JackKnife on Samples          1070.8      1098.2      1136.7      1148.1
+                                1629.1      1703.4      1748.2      1765.8
+
+**************************************************************************
+
+Ending time: Thu Oct  8 19:14:10 2026
+-------------------------------------
+
